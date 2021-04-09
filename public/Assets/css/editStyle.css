@@ -1,0 +1,44 @@
+.tab-pane li{
+    margin-left:20px;
+}
+.product-detail{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.nav-tabs .nav-link{
+    font-size: 20px;
+    border:none;
+    border-bottom: 1px solid transparent;
+    color:#000000;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color:#52057b;
+    border-bottom: 1px solid #52057b;
+}
+.row{
+    margin-top:20px;    
+}
+.brand-wrapper {
+    display:flex;
+    flex-direction: column; 
+    margin-top:10px;
+}
+.brand-wrapper span{
+    margin-top: 10px;
+}
+
+.product-detail p{
+    color:black;
+}
+.product-detail li{
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.whatsapp-footer{
+	position: relative;
+	bottom:40px;
+	left:0px;
+	cursor: pointer;
+	width:300px;
+}
