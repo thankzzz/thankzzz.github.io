@@ -5,7 +5,7 @@ function itemKD() {
         <div className="col-lg-9 order-lg-2 productlist">
                 <div className="row">
                     <div className="col-lg-12" style={{display:'flex',justifyContent:'center',alignContent:'center',marginBottom:'20px'}}>
-                        <img alt="cheonsei-kd"src={process.env.PUBLIC_URL+'/Assets/img/Gallery/cheon-logo.png'}/>
+                        <img alt="cheonsei-kd"src={process.env.PUBLIC_URL + '/Assets/img/Gallery/cheon-logo.png'}/>
                     </div>
                 </div>
                  <div className="col-lg-12 product-title">
@@ -14,7 +14,7 @@ function itemKD() {
                 
                 <div className="row">
                     <div className="col-lg-5 order-lg-1 image-product-detail">
-                        <img src={process.env.PUBLIC_URL+"/Assets/img/Gallery/Kdv.jpg"} alt=""/>
+                        <img src={process.env.PUBLIC_URL + "/Assets/img/Gallery/KDV.jpg"} alt=""/>
                     </div>   
                     <div className="col-lg-7 order-lg-1" >
                         <h4>Features</h4>

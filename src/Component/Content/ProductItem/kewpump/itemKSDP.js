@@ -11,7 +11,7 @@ function itemKSDP() {
             <div className="row">
                 <div className="col-lg-5 order-lg-1 image-product-detail">
 
-                    <img src={process.env.PUBLIC_URL + "/Assets/img/Gallery/KS-SDP.jpg"} alt="KEWPUMP KS-KDP" />
+                    <img src={process.env.PUBLIC_URL + "/Assets/img/Gallery/KS-KDP.jpg"} alt="KEWPUMP KS-KDP" />
                 </div>
                 <div className="col-lg-7 order-lg-1" >
                     <h4>Design</h4>

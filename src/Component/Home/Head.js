@@ -41,11 +41,11 @@ function Head() {
                                
                                 <li><a  className="text-white" href="/product">Products</a>
                                     <ul className="dropdown">
-                                        <li><Link  className="text-white" to="/product/kewpump">Kewpump</Link></li>
-                                        <li><Link className="text-white" to="/product/brooks">Brooks</Link></li>
-                                        <li><Link className="text-white" to="/product/benzlers">Benzlers</Link></li>
-                                        <li><Link  className="text-white"to="/product/challenge">Challenge</Link></li>
-                                        <li><Link className="text-white" to="/product/cheonsei">Cheonsei</Link></li>
+                                        <li><a  className="text-white" href="/product/kewpump">Kewpump</a></li>
+                                        <li><a className="text-white" href="/product/brooks">Brooks</a></li>
+                                        <li><a className="text-white" href="/product/benzlers">Benzlers</a></li>
+                                        <li><a  className="text-white" href="/product/challenge">Challenge</a></li>
+                                        <li><a className="text-white" href="/product/cheonsei">Cheonsei</a></li>
                                     </ul>
                                 </li>
                                 <li><a className="text-white" href="/Gallery">Gallery</a></li>
@@ -57,9 +57,7 @@ function Head() {
 
                             </ul>
                         </nav>
-                        {/* <div className="header__btn">
-                            <a to="/contact" className="primary-btn">Contact Us</a>
-                        </div> */}
+                       
                        
                     </div>
                 </div>
