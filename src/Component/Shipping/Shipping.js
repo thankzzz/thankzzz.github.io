@@ -6,7 +6,7 @@ function Shipping() {
             <div className="container">
                 <div className="row" style={{ display: 'flex', flexDirection: 'column' }}>
                     <div className="col-lg-9 table-partner-list">
-                        <table class="table table-bordered" style={{ marginLeft: '20px' }}>
+                        <table class="table table-bordered" >
                             <thead>
                                 <tr >
                                     <th colSpan="2" class="text-center row-2">Shipping Company</th>

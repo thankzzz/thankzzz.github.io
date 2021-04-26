@@ -1,5 +1,7 @@
 import React from 'react'
-
+import pumprepair from './img/pump-repair.png'
+import replacement from './img/replacement-parts.png'
+import engineering from './img/engineering-services.png'
 function Partservice() {
     return (
         <section className="chooseus spad bg-red-500 pt-2">
@@ -16,21 +18,21 @@ function Partservice() {
             <div className="row">
                 <div className="col-lg-4 col-md-6 col-sm-6 ">
                     <div className="chooseus__item content-center">
-                     <span className="flex justify-center items-center"><img alt="centrifugal-pump" src={process.env.PUBLIC_URL+"/Assets/img/corporate/pump-repair.png"}/></span>
+                     <span className="flex justify-center items-center"><img alt="centrifugal-pump" src={pumprepair}/></span>
                         <h5 className="text-white">Pump Repair</h5>
                         
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6">
                     <div className="chooseus__item">
-                    <span className="flex justify-center items-center"><img  alt="centrifugal-pump" src={process.env.PUBLIC_URL+"/Assets/img/corporate/engineering-services.png"}/></span>
+                    <span className="flex justify-center items-center"><img  alt="centrifugal-pump" src={engineering}/></span>
                         <h5 className="text-white">Engineering Service</h5>
                         
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="col-lg-4 col-md-12 col-sm-12">
                     <div className="chooseus__item">
-                    <span className="flex justify-center items-center"><img  alt="centrifugal-pump" src={process.env.PUBLIC_URL+"/Assets/img/corporate/replacement-parts.png"}/></span>   
+                    <span className="flex justify-center items-center"><img  alt="centrifugal-pump" src={replacement}/></span>   
                         <h5 className="text-white">Replacement Parts</h5>
                        
                     </div>

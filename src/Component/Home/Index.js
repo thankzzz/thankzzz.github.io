@@ -9,7 +9,7 @@ import BrandHome from './BrandHome'
 function Index() {
     
     return (
-        <div> 
+       <React.Fragment>
                 <Banner/>
                 <CardHome/> 
                 <Partservice/> 
@@ -17,7 +17,7 @@ function Index() {
                
                 <BrandHome/>
                 {/* <Gallery/> */}
-        </div>
+        </React.Fragment> 
     )
 }
 

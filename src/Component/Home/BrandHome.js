@@ -64,11 +64,11 @@ function BrandHome() {
 
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-6">
+                <div className="col-lg-3 col-md-12 col-sm-12">
                     <div className="team__item">
                     <div className="flex content-center justify-center"><img className="w-300 h-20 mx-4" src={process.env.PUBLIC_URL + "/Assets/img/Corporate/benzlers-logo.png"} alt="benzlers-icon" /></div>
                         <h5>Benzlers</h5>
-                        <span>Belt & Pulley - Coupling</span>
+                        <span>Gearbox</span>
 
                     </div>
                 </div>

@@ -5,7 +5,7 @@ let BannerTablet = props => {
 
   if (isLandscape) {
     return  <div>
-        <img alt="banner-home" className="d-block" src={process.env.PUBLIC_URL+"/Assets/img/gallery/ks-series-tablet-potrait.png"}/>   
+        <img alt="banner-home" className="d-block" src={process.env.PUBLIC_URL + "Assets/img/gallery/ks-series-tablet-potrait.png" }/>   
       {/* <img alt="banner-home" className="d-block" src={process.env.PUBLIC_URL+"/Assets/img/gallery/ks-series-tablet-potrait.png"}/>    */}
       {/* <img alt="banner-home" className="d-block"src={process.env.PUBLIC_URL+"/Assets/img/gallery/artboard2.png"}/> */}
   </div>
@@ -13,7 +13,7 @@ let BannerTablet = props => {
   
   if (isPortrait) {
     return    <div>
-                  <img alt="banner-home" className="d-block" src={process.env.PUBLIC_URL+"/Assets/img/gallery/ks-series-tablet-potrait.png"}/>   
+                  <img alt="banner-home" className="d-block" src={process.env.PUBLIC_URL + "/Assets/img/gallery/ks-series-tablet-potrait.png"}/>   
                   {/* <img alt="banner-home" className="d-block"src={process.env.PUBLIC_URL+"/Assets/img/gallery/artboard2.png"}/> */}
               </div>
   }

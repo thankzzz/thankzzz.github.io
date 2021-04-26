@@ -1,5 +1,7 @@
 import React from 'react'
-
+import quality from './img/quality.png'
+import office from './img/office.png'
+import catalogue from './img/catalogue.png'
     function ProductCategory() {
         return (
             <section className="chooseus spad pt-0">
@@ -15,21 +17,21 @@ import React from 'react'
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="chooseus__item">
-                        <span className="card-home2-item-img"><img src={process.env.PUBLIC_URL+"/Assets/img/icon/quality.png"} alt="best-quality"/></span>
+                        <span className="card-home2-item-img"><img src={quality} alt="best-quality"/></span>
                             <h5>Best Quality Service</h5>
                             <p>Our metering pumps have solved chemical corrosion and leakage problem by precise design</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="chooseus__item">
-                        <span className="card-home2-item-img"><img src={process.env.PUBLIC_URL+"/Assets/img/icon/catalogue.png"} alt="catalogue"/></span>
+                        <span className="card-home2-item-img"><img src={catalogue} alt="catalogue"/></span>
                             <h5>Catalogue</h5>
                             <p>We always update our catalogue product to make sure you have the latest info</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6">
+                    <div className="col-lg-4 col-md-12 col-sm-12">
                         <div className="chooseus__item">
-                        <span className="card-home2-item-img"><img src={process.env.PUBLIC_URL+"/Assets/img/icon/office.png"} alt="find-us"/></span>
+                        <span className="card-home2-item-img"><img src={office} alt="find-us"/></span>
                             <h5>Find Us</h5>
                             <p>We are always interested in seeking dynamic and committed engineers & manpower with the expertise, energy and resource to invest in</p>
                         </div>

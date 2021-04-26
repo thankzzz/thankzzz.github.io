@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import whatsapp from './img/whatsapp.png'
 function Head() {
     return (
         <React.Fragment>
@@ -21,12 +22,12 @@ function Head() {
                     <div className="header__menu__option">
                             <nav className="header__menu flex content-center justify-center ">
                                  <li className="font-semibold px-4 "><Link  to="/about-us">About Us</Link></li>
-                                 <li className="font-semibold px-4"><Link to="/about-us">Contact Us</Link></li> 
+                                 <li className="font-semibold px-4"><Link to="/contact-us">Contact Us</Link></li> 
                             </nav>
                     </div>
                 </div> 
                 <div className=" col-xl-2 col-lg-12 col-sm-12 flex justify-center content-center">
-                    <a href="https://api.whatsapp.com/send?phone=081260090018&lang=id" rel="noopener noreferrer" target="_blank"><img  className="whatsapp-icon-head" alt="whatsapp-icon" src={process.env.PUBLIC_URL+"/Assets/img/icon/whatsapp.png"}/></a>
+                    <a href="https://api.whatsapp.com/send?phone=081260090018&lang=id" rel="noopener noreferrer" target="_blank"><img  className="whatsapp-icon-head" alt="whatsapp-icon" src={whatsapp}/></a>
                 </div>
                
             </div>
@@ -40,11 +41,11 @@ function Head() {
                                
                                 <li><a  className="text-white" href="/product">Products</a>
                                     <ul className="dropdown">
-                                        <li><a  className="text-white"href="/product/kewpump">Kewpump</a></li>
-                                        <li><a  className="text-white"href="/product/brooks">Brooks</a></li>
-                                        <li><a className="text-white" href="/product/benzlers">Benzlers</a></li>
-                                        <li><a  className="text-white"href="/product/challenge">Challenge</a></li>
-                                        <li><a className="text-white" href="/product/cheonsei">Cheonsei</a></li>
+                                        <li><Link  className="text-white" to="/product/kewpump">Kewpump</Link></li>
+                                        <li><Link className="text-white" to="/product/brooks">Brooks</Link></li>
+                                        <li><Link className="text-white" to="/product/benzlers">Benzlers</Link></li>
+                                        <li><Link  className="text-white"to="/product/challenge">Challenge</Link></li>
+                                        <li><Link className="text-white" to="/product/cheonsei">Cheonsei</Link></li>
                                     </ul>
                                 </li>
                                 <li><a className="text-white" href="/Gallery">Gallery</a></li>
@@ -57,7 +58,7 @@ function Head() {
                             </ul>
                         </nav>
                         {/* <div className="header__btn">
-                            <a href="/contact" className="primary-btn">Contact Us</a>
+                            <a to="/contact" className="primary-btn">Contact Us</a>
                         </div> */}
                        
                     </div>

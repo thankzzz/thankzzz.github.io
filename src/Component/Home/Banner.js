@@ -3,7 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import {App}from './BannerResolution'
-
+import kewpumpbanner from './img/kewpump-banner-pc.png'
+import brooksandel from './img/BrooksAndel-pc-1.png'
+import challenge from './img/challenge-banner-pc.png'
 import {
     BrowserView,
     MobileView,  
@@ -28,9 +30,9 @@ function Banner() {
         
             <BrowserView>
                 <Slider {...settings}>
-                   <div> <img alt="banner-home" className="d-block" src={process.env.PUBLIC_URL+"/Assets/img/gallery/kewpump-banner-pc.png"}/>   </div>
-                   <div>  <img alt="banner-home" className="d-block" src={process.env.PUBLIC_URL+"/Assets/img/gallery/BrooksAndel-pc-1.png"}/>   </div>
-                    <img alt="banner-home" className="d-block"src={process.env.PUBLIC_URL+"/Assets/img/gallery/challenge-banner-pc.png"}/>
+                   <div> <a href="/product/kewpump"><img alt="banner-home1" className="d-block" src={kewpumpbanner}/></a> </div>
+                   <div>  <img alt="banner-home2" className="d-block" src={brooksandel}/>   </div>
+                    <img alt="banner-home3" className="d-block" src={challenge}/>
                 </Slider>
                 </BrowserView>
             <MobileView>

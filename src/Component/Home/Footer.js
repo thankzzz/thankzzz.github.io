@@ -1,5 +1,5 @@
 import React from 'react'
-
+import whatsapp from './img/whatsapp.png'
 function Footer() {
     return (
         <footer className="footer">
@@ -14,6 +14,7 @@ function Footer() {
                             <li><a href="/contact">Contact us</a></li>
                             <li><a href="/product">Products</a></li>
                             <li><a href="/download">Download</a></li>
+                            
                         </ul>
                     </div>
                     
@@ -52,7 +53,7 @@ function Footer() {
                         </div>
                         <div className="col-12">
                         <div className="whatsapp-footer">
-                        <a href="https://api.whatsapp.com/send?phone=081260090018&lang=id" rel="noopener noreferrer" target="_blank"><img alt="whatsapp-icon" src={process.env.PUBLIC_URL+"/Assets/img/icon/whatsapp.png"}/></a>
+                        <a href="https://api.whatsapp.com/send?phone=081260090018&lang=id" rel="noopener noreferrer" target="_blank"><img alt="whatsapp-icon" src={whatsapp}/></a>
                     </div>
                         </div>
                     </div>

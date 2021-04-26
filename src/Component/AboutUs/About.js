@@ -16,7 +16,7 @@ function About() {
                                 (sole distributor) dan servis untuk produk-produk kebutuhan pabrik
                                 pengolahan kelapa sawit, pabrik gula, crumb rubber, pulp & paper dan lain-lain beserta jasa (sevice after sales dan technical support). Adapun
                                 produk-produk yang disupply / diageni adalah sebagai berikut :
-                                    <img alt="about-us" rel="noopener noreferrer" src={process.env.PUBLIC_URL + '/Assets/img/corporate/corp1.jpg'} style={{ width: '300px', height: '300px', float: 'left', padding: '10px 30px 20px 0px' }} />
+                                    <img alt="about-us" rel="noopener noreferrer" src={process.env.PUBLIC_URL + '/Assets/img/Corporate/corp1'} style={{ width: '300px', height: '300px', float: 'left', padding: '10px 30px 20px 0px' }} />
                                     <ul>
                                         <li> Pompa & Spareparts, Merk : Kewpump (Malaysia)</li>
                                         <li>Conveyor Chain & Sprockets, Merk : Brooks Andell (U.K.)</li>
